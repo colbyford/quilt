@@ -1,2 +1,2 @@
 # quilt
-Quilt: A set of efficient and tidy multidimensional data operations.
+Quilt: A patchwork of efficient and tidy multidimensional data operations.
