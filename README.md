@@ -1,6 +1,6 @@
 
 # *quilt* - A patchwork of efficient and tidy multidimensional data operations
-<h3 align = "right">Colby Ford</h3>
+<h3 align = "right">Colby Ford, Ph.D.</h3>
 
 ## Installation
 
