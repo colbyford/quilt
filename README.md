@@ -21,12 +21,13 @@ library(quilt)
   - [ ] not in `%notin%`
   - [ ] shuffle order of a vector `shuffle()`
   - [ ] drillable hierarchical lists `group_by() %>% set_hierarchy() %>% as.list()`
+  - [ ] precomputed summary values (mean, sum, sd, etc.) as metadata
 - [ ] Fancy loops
   - [ ] automatically-binding loop `bloop(i in 1:100, method = "cbind", parmethod = "doParallel")`
   - [ ] returns multiple objects from loop `returns()`
 - [ ] ID'd Directional Pipe `%>%(1,2)` for `object<1>` and `function()<2>`
 - [ ] Automatic Parallelism
-  - [ ] inherently setup local parallel `parkour()` or `parcore()` using `.onLoad`
+  - [ ] inherently set up local parallel `parkour()` or `parcore()` using `.onLoad` or `.onAttach`
   - [ ] recognize loop operations to parallelize `for(){}`
 
 ## License
