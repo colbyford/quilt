@@ -21,7 +21,8 @@ library(quilt)
   - [ ] not in `%notin%`
   - [ ] shuffle order of a vector `shuffle()`
   - [ ] drillable hierarchical lists `group_by() %>% set_hierarchy() %>% as.list()`
-  - [ ] precomputed summary values (mean, sum, sd, etc.) as metadata
+  - [ ] enhance tibbles/dataframes with pre-computed summary values (mean, sum, sd, etc.)
+  - [ ] easily digestible information about a variable/object `about()`
 - [ ] Fancy loops
   - [ ] automatically-binding loop `bloop(i in 1:100, method = "cbind", parmethod = "doParallel")`
   - [ ] returns multiple objects from loop `returns()`
