@@ -14,7 +14,20 @@ library(quilt)
 ## To Do List
 
 - [ ] Multidimensional Run Length Encoding
-- [ ] Class-specific Transpose
+  - [ ] 2-dimensional RLE `rle_2()`
+  - [ ] n-dimensional RLE `rle_n(., n)`
+- [ ] Class-specific Transpose `transpose()`
+- [ ] Enhanced Dataset Operations
+  - [ ] not in `%notin%`
+  - [ ] shuffle order of a vector `shuffle()`
+  - [ ] drillable hierarchical lists `group_by() %>% set_hierarchy() %>% as.list()`
+- [ ] Fancy loops
+  - [ ] automatically-binding loop `bloop(i in 1:100, method = "cbind", parmethod = "doParallel")`
+  - [ ] returns multiple objects from loop `returns()`
+- [ ] ID'd Directional Pipe `%>%(1,2)` for `object<1>` and `function()<2>`
+- [ ] Automatic Parallelism
+  - [ ] inherently setup local parallel `parkour()` or `parcore()` using `.onLoad`
+  - [ ] recognize loop operations to parallelize `for(){}`
 
 ## License
 
