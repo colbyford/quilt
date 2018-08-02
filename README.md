@@ -1,6 +1,7 @@
 
 # *quilt* - A patchwork of efficient and tidy multidimensional data operations
 <h3 align = "right">Colby Ford, Ph.D.</h3>
+<img align="right" src="https://raw.githubusercontent.com/colbyford/quilt/master/img/quilt_hex.png" alt="quilt icon" width="200">
 
 ## Installation
 
