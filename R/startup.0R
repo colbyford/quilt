@@ -1,0 +1,13 @@
+#' @import doParallel
+#' @export .onAttach
+#' @export .onLoad
+######################################
+
+.onAttach <- function() {
+  packageStartupMessage("Welcome to quilt.")
+}
+
+.onLoad <- function() {
+  parkour()
+  invisible()
+}

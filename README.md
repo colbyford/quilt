@@ -1,7 +1,7 @@
 
 # *quilt* - A patchwork of efficient and tidy multidimensional data operations
 <h3 align = "right">Colby Ford, Ph.D.</h3>
-<img align="right" src="https://raw.githubusercontent.com/colbyford/quilt/master/quilt_hex.png" alt="quilt icon" width="200">
+<img align="right" src="https://raw.githubusercontent.com/colbyford/quilt/master/img/quilt_hex.png" alt="quilt icon" width="200">
 
 ## Installation
 
@@ -19,7 +19,7 @@ library(quilt)
   - [ ] n-dimensional RLE `rle_n(., n)`
 - [ ] Class-specific Transpose `transpose()`
 - [ ] Enhanced Dataset Operations
-  - [ ] not in `%notin%`
+  - [x] not in `%notin%`
   - [ ] shuffle order of a vector `shuffle()`
   - [ ] drillable hierarchical lists `group_by() %>% set_hierarchy() %>% as.list()`
   - [ ] enhance tibbles/dataframes with pre-computed summary values (mean, sum, sd, etc.)
@@ -29,7 +29,7 @@ library(quilt)
   - [ ] returns multiple objects from loop `returns()`
 - [ ] ID'd Directional Pipe `%>%(1,2)` for `object<1>` and `function()<2>`
 - [ ] Automatic Parallelism
-  - [ ] inherently set up local parallel `parkour()` or `parcore()` using `.onLoad` or `.onAttach`
+  - [x] inherently set up local parallel `parkour()` or `parcore()` using `.onLoad` or `.onAttach`
   - [ ] recognize loop operations to parallelize `for(){}`
 
 ## License
