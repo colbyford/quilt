@@ -1,7 +1,7 @@
 #' @param parmethod vector or \code{NULL}: the values to be matched.
 #'
 #' @import doParallel
-#' @export `%notin%`
+#' @export parkour
 ######################################
 
 parkour <- function(parmethod = "localpar"){
