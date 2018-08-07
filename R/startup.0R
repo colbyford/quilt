@@ -1,3 +1,6 @@
+#' @title Automatic functions
+#' @description A set of functions that are automatically loaded when the `quilt` package is called
+#'
 #' @import doParallel
 #' @export .onAttach
 #' @export .onLoad

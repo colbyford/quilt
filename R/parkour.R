@@ -1,3 +1,6 @@
+#' @title Parkour
+#' @description A function to automatically create a local parallel environment.
+#'
 #' @param parmethod vector or \code{NULL}: the values to be matched.
 #'
 #' @import doParallel

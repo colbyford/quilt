@@ -1,3 +1,6 @@
+#' @title Transpose
+#' @description A type-specific version of the traditional transpose `t()` function.
+#'
 #' @param data matrix, dataframe, tibble, or list to be transposed.
 #' @param rownames Should the output data use the rownames from the input data as columns?
 #' Logical (Default = \code{FALSE})

@@ -1,3 +1,6 @@
+#' @title Pipe Functions
+#' @description A set of transformations altered for use in the pipe.
+#'
 #' @param data Input data with columns or rows to be renamed.
 #' @param names Vector of characters to
 #'
