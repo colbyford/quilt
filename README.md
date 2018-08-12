@@ -32,6 +32,8 @@ library(quilt)
 - [ ] Automatic Parallelism
   - [x] inherently set up local parallel `parkour()` or `parcore()` using `.onLoad` or `.onAttach`
   - [ ] recognize loop operations to parallelize `for(){}`
+- [ ] Replacement of Slow Functions
+  - [ ] TBD
 
 ## License
 
