@@ -15,8 +15,8 @@ library(quilt)
 ## To Do List
 
 - [ ] Multidimensional Run Length Encoding
-  - [ ] 2-dimensional RLE `rle_2()`
-  - [ ] n-dimensional RLE `rle_n(., n)`
+  - [ ] _2_-dimensional RLE `rle_2()`
+  - [ ] _n_-dimensional RLE `rle_n(., n)`
 - [x] Class-specific Transpose `transpose()`
 - [ ] Enhanced Dataset Operations
   - [x] not in `%notin%`
@@ -25,6 +25,7 @@ library(quilt)
   - [ ] enhance tibbles/dataframes with pre-computed summary values (mean, sum, sd, etc.)
   - [x] easily digestible information about a variable/object `about()`
   - [x] `rename_columns` and `rename_rows` functions for pipes
+  - [ ] Add ability to use sets (create new _set_ type) in R using `as.set()`
 - [ ] Fancy loops
   - [ ] automatically-binding loop `bloop(i in 1:100, method = "cbind", parmethod = "doParallel")`
   - [ ] returns multiple objects from loop `returns()`
