@@ -1,7 +1,7 @@
 Package: quilt
 Type: Package
 Title: A Patchwork of Efficient and Tidy Multidimensional Data Operations
-Version: 0.0.2
+Version: 0.0.3
 Author: Colby Ford
 Maintainer: Colby Ford <colby.ford@uncc.edu>
 Description: This package offers a set of data operations that make multidimensional processing easier and more efficient.

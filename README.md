@@ -25,10 +25,11 @@ library(quilt)
   - [ ] enhance tibbles/dataframes with pre-computed summary values (mean, sum, sd, etc.)
   - [x] easily digestible information about a variable/object `about()`
   - [x] `rename_columns` and `rename_rows` functions for pipes
+  - [x] `reorder_columns` and `reorder_rows` functions for pipes
   - [ ] Add ability to use sets (create new _set_ type) in R using `as.set()`
 - [ ] Fancy loops
   - [ ] automatically-binding loop `bloop(i in 1:100, method = "cbind", parmethod = "doParallel")`
-  - [ ] returns multiple objects from loop `returns()`
+  - [x] returns multiple objects from loop `returns()`
 - [ ] ID'd Directional Pipe `%>%(1,2)` for `object<1>` and `function()<2>`
 - [ ] Automatic Parallelism
   - [x] inherently set up local parallel `parkour()` or `parcore()` using `.onLoad` or `.onAttach`

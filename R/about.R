@@ -17,4 +17,5 @@ about <- function(data){
   output <- list("Object Size" = objectsize,
                  "Dimensions" = dimensions,
                  "Variables" = variableinfo)
+  return(output)
 }
