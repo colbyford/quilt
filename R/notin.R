@@ -11,3 +11,10 @@
 `%notin%` <- function(x, table) {
   match(x, table, nomatch = 0L) == 0L
 }
+
+as.set <- function(x){
+  attr(x, "class") <- "set"
+  x <- unique(x)
+
+  return(x)
+}

@@ -1,6 +1,6 @@
 
 # *quilt* - A patchwork of efficient and tidy multidimensional data operations
-<h3 align = "right">Colby Ford, Ph.D.</h3>
+<h3 align = "right">Colby T. Ford, Ph.D.</h3>
 <img align="right" src="https://raw.githubusercontent.com/colbyford/quilt/master/img/quilt_hex.png" alt="quilt icon" width="200">
 
 ## Installation
@@ -24,9 +24,11 @@ library(quilt)
   - [ ] drillable hierarchical lists `group_by() %>% set_hierarchy() %>% as.list()`
   - [ ] enhance tibbles/dataframes with pre-computed summary values (mean, sum, sd, etc.)
   - [x] easily digestible information about a variable/object `about()`
-  - [x] `rename_columns` and `rename_rows` functions for pipes
+  - [x] `rename_columns`, `rename_rows`, and `reset_rownames` functions for pipes
   - [x] `reorder_columns` and `reorder_rows` functions for pipes
-  - [ ] Add ability to use sets (create new _set_ type) in R using `as.set()`
+- [ ] New _set_ operations
+  - [ ] Create new _set_ type using `as.set()`
+  - [ ] Introduce subset/superset logic
 - [ ] Fancy loops
   - [ ] automatically-binding loop `bloop(i in 1:100, method = "cbind", parmethod = "doParallel")`
   - [x] returns multiple objects from loop `returns()`
