@@ -36,6 +36,10 @@ library(quilt)
 - [ ] Automatic Parallelism
   - [x] inherently set up local parallel `parkour()` or `parcore()` using `.onLoad` or `.onAttach`
   - [ ] recognize loop operations to parallelize `for(){}`
+- [ ] Specialized Imputation Methods for `NA`s.
+  - [ ] Statistics-based methods: distribution, mean, mode, etc.
+  - [ ] Directional-based methods
+  - [ ] Time series methods
 - [ ] Replacement of Slow Functions
   - [ ] TBD
 
