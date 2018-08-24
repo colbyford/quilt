@@ -26,6 +26,7 @@ library(quilt)
   - [x] easily digestible information about a variable/object `about()`
   - [x] `rename_columns`, `rename_rows`, and `reset_rownames` functions for pipes
   - [x] `reorder_columns` and `reorder_rows` functions for pipes
+  - [ ] Split dataset into `n` parts (training, testing, and validation sets, etc.) using `split_2` and `split_n`
 - [ ] New _set_ operations
   - [ ] Create new _set_ type using `as.set()`
   - [ ] Introduce subset/superset logic
