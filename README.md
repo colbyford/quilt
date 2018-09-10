@@ -14,6 +14,7 @@ library(quilt)
 
 ## To Do List
 
+- [ ] _n_-dimensional Matrix Pattern Search
 - [ ] Multidimensional Run Length Encoding
   - [ ] _2_-dimensional RLE `rle_2()`
   - [ ] _n_-dimensional RLE `rle_n(., n)`
@@ -26,6 +27,7 @@ library(quilt)
   - [x] easily digestible information about a variable/object `about()`
   - [x] `rename_columns`, `rename_rows`, and `reset_rownames` functions for pipes
   - [x] `reorder_columns` and `reorder_rows` functions for pipes
+  - [ ] `unlist_all` function to unlist each column in a data frame.
   - [ ] Split dataset into `n` parts (training, testing, and validation sets, etc.) using `split_2` and `split_n`
 - [ ] New _set_ operations
   - [ ] Create new _set_ type using `as.set()`
