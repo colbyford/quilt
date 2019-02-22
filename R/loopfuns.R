@@ -1,7 +1,9 @@
 #' @title Loop Functions
 #' @description A set of functions to enhance loop functionality
 #'
-#' @param data Input data with columns or rows to be used.
+#' @param objs Vector of objects to return from function.
+#' @param names Vector of names for the objects being returned.
+#' @param env Environment to which objects should be returned.
 #'
 #' @import dplyr
 #' @export returns
@@ -15,3 +17,4 @@ returns <- function(objs, names, env = .GlobalEnv){
            envir = env)
   }
 }
+
